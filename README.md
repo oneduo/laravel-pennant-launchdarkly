@@ -31,7 +31,7 @@ composer require oneduo/laravel-pennant-launchdarkly
 ## Usage
 
 You may use the driver in your existing Laravel Pennant configuration file, by setting your store's driver
-to `launchdarkly`.
+to `LaunchDarklyDriver::class`.
 
 You should provide your SDK key in your store's configuration.
 
